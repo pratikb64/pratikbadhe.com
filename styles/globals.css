@@ -1,16 +1,18 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Outfit', sans-serif;
+    background-color: #141517;
+    scroll-behavior: smooth;
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.nav_active {
+  clip-path: circle(140% at calc(100% - 23px) 5%);
 }
-
-* {
-  box-sizing: border-box;
+.nav_inactive {
+  clip-path: circle(0 at calc(100% - 23px) 5%);
 }
