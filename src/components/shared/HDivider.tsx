@@ -15,7 +15,10 @@ interface HDivider {
 const HDivider = ({ height = 90, diameter = 12 }) => {
   return (
     <div className="relative">
-      <div className="w-[2px] rounded-full bg-white" style={{ height }}></div>
+      <div
+        className="m-auto w-[2px] rounded-full bg-white"
+        style={{ height }}
+      ></div>
       <div
         className="absolute bottom-0 left-1/2 -translate-x-1/2 rounded-full bg-white"
         style={{ width: diameter, height: diameter }}

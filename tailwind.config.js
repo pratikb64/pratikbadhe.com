@@ -25,6 +25,7 @@ module.exports = {
       },
       fontFamily: {
         'ibm-mono': ['IBM Plex Mono', ...defaultTheme.fontFamily.sans],
+        'space-grotesk': ['Space Grotesk', ...defaultTheme.fontFamily.sans],
         outfit: ['Outfit', ...defaultTheme.fontFamily.sans],
       },
     },

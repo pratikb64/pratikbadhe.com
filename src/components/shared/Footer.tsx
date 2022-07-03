@@ -58,7 +58,7 @@ const Footer = () => {
               />
             </a>
           </Link>
-          <div className="hidden font-ibm-mono text-sm font-bold text-accent-black md:block">
+          <div className="font-space-grotesk hidden text-sm font-bold text-accent-black md:block">
             © 2022-present Pratik Badhe. All Rights Reserved.
           </div>
         </div>
@@ -67,7 +67,7 @@ const Footer = () => {
             <div className="mb-4 font-bold text-accent-black md:mb-6">
               Pages
             </div>
-            <div className="grid gap-2 sm:grid-cols-2 sm:grid-rows-3 sm:gap-4 sm:gap-x-14">
+            <div className="grid grid-flow-row gap-2 sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-4 sm:gap-4 sm:gap-x-14">
               {pages.map((page, index) => {
                 return (
                   <Link href={page.path} key={index}>
@@ -92,7 +92,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-10 text-center font-ibm-mono text-[12px] font-bold  text-accent-black md:hidden">
+        <div className="font-space-grotesk mt-10 text-center text-[12px] font-bold  text-accent-black md:hidden">
           © 2022-present Pratik Badhe. All Rights Reserved.
         </div>
       </div>
