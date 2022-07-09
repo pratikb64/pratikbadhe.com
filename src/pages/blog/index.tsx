@@ -1,18 +1,20 @@
 import { Layout } from '@components';
 import React from 'react';
 
-const Projects = () => {
+const Blogs = () => {
   let seo = {
-    title: 'Projects',
+    title: 'Blogs',
     description: 'CONFIG.DESCRIPTION',
     image: 'CONFIG.IMAGE',
-    path: '/project',
+    path: '/blog',
   };
   return (
     <Layout seo={seo}>
-      <div>Projects</div>
+      <div className="flex h-screen items-center justify-center">
+        <div>🚧 WIP</div>
+      </div>
     </Layout>
   );
 };
 
-export default Projects;
+export default Blogs;

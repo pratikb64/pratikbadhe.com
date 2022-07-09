@@ -1,18 +1,20 @@
 import { Layout } from '@components';
 import React from 'react';
 
-const ContactMe = () => {
+const ChangeLog = () => {
   let seo = {
-    title: "Let's Connect",
+    title: 'ChangeLog',
     description: 'CONFIG.DESCRIPTION',
     image: 'CONFIG.IMAGE',
-    path: '/contact-me',
+    path: '/change-log',
   };
   return (
     <Layout seo={seo}>
-      <div>Let&apos;s Connect</div>
+      <div className="flex h-screen items-center justify-center">
+        <div>🚧 WIP</div>
+      </div>
     </Layout>
   );
 };
 
-export default ContactMe;
+export default ChangeLog;

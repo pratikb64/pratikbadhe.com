@@ -11,7 +11,7 @@ const Hero = () => {
         Pratik Badhe
       </h1>
       <div className="max-w-[340px] text-lg font-light">
-        I’m <span className="font-extrabold"> Full Stack Web Developer</span>{' '}
+        I’m a<span className="font-extrabold"> Full Stack Web Developer</span>{' '}
         who loves to make ingenious ideas come to life
       </div>
       <div className="my-3 md:my-8">

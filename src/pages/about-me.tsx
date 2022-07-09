@@ -10,7 +10,9 @@ const AboutMe = () => {
   };
   return (
     <Layout seo={seo}>
-      <div>About me</div>
+      <div className="flex h-screen items-center justify-center">
+        <div>🚧 WIP</div>
+      </div>
     </Layout>
   );
 };

@@ -13,9 +13,9 @@ const Home: NextPage = () => {
   return (
     <Layout seo={seo}>
       <Hero />
-      <Technologies />
       {/* <RecentBlogs /> */}
       <Projects />
+      <Technologies />
     </Layout>
   );
 };
